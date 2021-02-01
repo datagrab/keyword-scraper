@@ -1,0 +1,21 @@
+{
+  "name": "keyword-scraper",
+  "version": "1.0.0",
+  "description": "Collects long-tail keywords for a given search term by scraping the related searches Google offers for it.",
+  "main": "scraper.js",
+  "scripts": {
+    "dev": "nodemon scraper.js",
+    "start": "node scraper.js"
+  },
+  "author": "Robert Balazsi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "puppeteer": "^5.5.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
